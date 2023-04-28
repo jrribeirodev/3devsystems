@@ -1,0 +1,61 @@
+.sobre{
+ display: flex;
+}
+
+.box-text-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-sobre{
+    text-align: justify;
+    margin-right: 10px;
+}
+.row{
+    justify-content: center;
+}
+
+.box-img-sobre{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.img-sobre{
+    width: 30%;
+    border-radius: 40px;
+}
+
+@media(max-width: 800px) {
+    .img-sobre {
+        display: none !important;
+    }
+}
+
+.card-header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-missao{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text{
+    text-align: center;
+}
