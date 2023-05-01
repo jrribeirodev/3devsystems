@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    width: 100%;
 }
 
 .img-missao{
@@ -58,4 +59,12 @@
 
 .card-text{
     text-align: center;
+}
+
+.col-sm{
+    text-align: center;
+}
+
+h1{
+    color: #4180ab;
 }
