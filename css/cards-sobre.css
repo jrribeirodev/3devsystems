@@ -35,6 +35,8 @@
 
 .box-card-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card-wrapper:hover .card-servico {
@@ -128,4 +130,13 @@ small {
 .back-h2 {
   font-size: 2rem;
   margin-top: 0;
+}
+
+.card-wrapper{
+  display: flex;
+}
+
+.container-servico{
+  display: flex;
+  flex-wrap: wrap;
 }

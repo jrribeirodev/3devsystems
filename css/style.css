@@ -1,0 +1,51 @@
+.hide-normal{
+    display: none;
+  }
+  
+  .hide-mobile{
+    display: block;
+  }
+  
+  @media screen and (max-width: 968px){
+    .about-us .img .stauts {
+      display: none;
+    }
+    .hide-normal{
+      display: block;
+      margin-top: 15px;
+    }
+  
+    .hide-mobile{
+      display: none;
+    }
+  }
+  
+  .mb-50-2 {
+      margin-bottom: 50px !important;
+    }
+  
+  @media screen and (max-width: 767px) {
+  
+    .section-padding {
+      padding: 40px 0;
+    }
+  
+    .mb-50-2 {
+      margin-bottom: -33px !important;
+    }}
+
+    .text-sobre{
+        font-size: 1.5em;
+    }
+
+    
+
+    .carrosel-filmes{
+      margin-top: 5px;
+  }
+
+  .box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
