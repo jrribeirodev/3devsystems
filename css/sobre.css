@@ -56,10 +56,6 @@
     text-align: center;
 }
 
-.col-sm{
-    text-align: center;
-}
-
 h1{
     color: #4180ab;
 }
@@ -136,4 +132,21 @@ body {
       width: 100%;
       display: block;
     }
+  }
+
+  .titulos{
+    text-align: center;
+  }
+
+  .button-enviar{
+    display: flex;
+    justify-content: center;
+  }
+
+  .redes-sociais{
+    height: 70px;margin: 10px;
+  }
+
+  h5{
+    color: #FFF;
   }

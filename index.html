@@ -96,7 +96,9 @@
           <div class="col-sm" >
             <div id="sobre">
               <div class="box-text-sobre">
+                <div class="titulos">
                 <h1 id="sobre">Sobre</h1>
+                </div>
                 <section class="about-us section-padding">
                   <div class="container">
                       <div class="row">
@@ -167,7 +169,9 @@
           <div class="w-100" id="servicos"><hr size="100px"></div>
 
           <div class="col-sm">
+            <div class="titulos">
             <h1>Serviços</h1> 
+            </div>
             <div id="accordion">
 
               <div class="card">
@@ -211,11 +215,13 @@
             
             </div>
 
-          <div class="w-100"><hr size="100px"></div>
+          <div class="w-100" id="clientes"><hr size="100px"></div>
 
           <div class="col-sm">
             <div class="about-section">
+              <div class="titulos">
               <h1>Clientes</h1>
+              </div>
               <p>Atualização em breve!</p>
             </div>
             <!--
@@ -261,11 +267,15 @@
             </div>
           </div>
 -->
-          <div class="w-100"><hr size="100px"></div>
+          <div class="w-100" id="projetos"><hr size="100px"></div>
 
           <div class="col-sm">
+            <div class="about-section">
+            <div class="titulos">
             <h1>Projetos</h1>
-
+</div>
+<p>Atualização em breve!</p>
+<!--
             <div class="carrosel-filmes">
               <div class="owl-carousel owl-theme">
                   <div class="item">
@@ -277,12 +287,39 @@
               </div>
       
           </div>
+          --></div>
           </div>
 
-          <div class="w-100"><hr size="100px"></div>
+          <div class="w-100" id="contato"><hr size="100px"></div>
 
           <div class="col-sm">
-            <h1>Contato</h1>
+            <div class="titulos">
+              <h1>Contato</h1>
+            </div>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+                </div>
+              </div>
+              <div class="form-row">
+              <div class="form-group col-md-8">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+              <div class="form-group col-md-4">
+                <input type="tel" class="form-control" id="inputTelefone" placeholder="Telefone">
+              </div>
+            </div>
+                <div class="form-group">
+                  <textarea placeholder="Mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div> 
+                <div class="button-enviar">             
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            </form>
           </div>
           
         </div>
@@ -291,7 +328,18 @@
 
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">Coloque o conteúdo do sticky footer aqui.</span>
+        <div class="row">
+          <h5>Acompanhe-nos</h1>
+        </div>
+        <div class="row">
+          <img class="redes-sociais" src="img/instagram.png" alt="">
+          <img class="redes-sociais" src="img/twitter.png" alt="">
+          <img class="redes-sociais" src="img/whatsapp.png" alt="">
+          <img class="redes-sociais" src="img/linkedin.png" alt="">
+        </div>
+        <div class="row">
+          <h5>&copy Desenvolvido por Junior Ribeiro</h5>
+        </div>
       </div>
     </footer>
 
